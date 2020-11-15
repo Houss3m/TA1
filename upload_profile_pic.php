@@ -95,7 +95,7 @@
 
                 $img_nom = $_FILES['file']['name'];
                 $img_blob = file_get_contents ($_FILES['file']['tmp_name']);
-                echo $img_nom." est bien trasf�r�";
+                echo $img_nom." est bien trasfere";
         }
 
             /***************************************/
